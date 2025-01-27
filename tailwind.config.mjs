@@ -8,9 +8,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primaryblue: "#34b1eb",
+        primarygrey: "#F2F0F1",
       },
+      fontFamily:{
+        gabarito: "Gabarito"
+      }
     },
   },
   plugins: [],
